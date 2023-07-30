@@ -36,6 +36,16 @@
 }
 
 /* flash_deal */
+.flash_deal{
+  background-color:aliceblue;
+  padding: 40px 4%;
+}
+.ddcc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
 .card_content_flash_deal{
   background-color: #ffff;
   margin-bottom: 30px;

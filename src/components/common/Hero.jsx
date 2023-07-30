@@ -26,7 +26,11 @@ export default function Hero() {
 
      {/* Flash Deals */}
      <section className="flash_deal">
-     <Container>
+     <Container fluid className="">
+       <div className="ddcc">
+         <h4> <i class="fa-solid fa-bolt"></i> Flash Deals</h4>
+         <h5>View All</h5>
+       </div>
        <Row>
          <Col lg={3}>
          <Card className="card_content_flash_deal">
