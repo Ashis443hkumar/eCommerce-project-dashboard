@@ -34,3 +34,22 @@
   margin-left: 30px;
   font-size: 28px;
 }
+
+/* flash_deal */
+.card_content_flash_deal{
+  background-color: #ffff;
+  margin-bottom: 30px;
+}
+.flash_deal .rating i{
+  color: rgb(215, 215, 35);
+  margin: 10px 0;
+}
+.price_flash_deals{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price1{
+  margin-right: 20px;
+  color: crimson;
+}

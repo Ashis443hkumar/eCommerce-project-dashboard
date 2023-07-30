@@ -1,9 +1,7 @@
 import React from "react";
 import {Container, Row,Col } from "react-bootstrap";
 
-
-
-function BasicExample() {
+export default function demo() {
   return (
    <>
      <Container>
@@ -19,4 +17,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+ 
