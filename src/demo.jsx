@@ -9,8 +9,6 @@ export default function demo() {
          <Col lg={4}></Col>
          <Col lg={4}></Col>
          <Col lg={4}></Col>
-
-
        </Row>
      </Container>
    </>

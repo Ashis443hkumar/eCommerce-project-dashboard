@@ -120,14 +120,191 @@ export default function Hero() {
           </Card.Body>
          </Card>
          </Col>
-         
-
-
-
        </Row>
      </Container>
      </section>
 
+
+     {/* Top Categories */}
+     <section className="flash_deal">
+     <Container fluid className="">
+       <div className="ddcc">
+         <h4> <i class="fa-solid fa-bolt"></i> Top Categories</h4>
+         <h5>View All</h5>
+       </div>
+       <Row>
+         <Col lg={4} className="">
+           <div className="edgrtegytr">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-1.png&w=1080&q=75" className="w-100" alt=""/>
+           </div>
+         </Col>
+         <Col lg={4}>
+         <div className="edgrtegytr">
+
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-2.png&w=1080&q=75" className="w-100" alt=""/>
+           </div>
+         </Col>
+         <Col lg={4}>
+         <div className="edgrtegytr">
+         <img src="https://bazaar.ui-lib.com/_next/image?    url=%2Fassets%2Fimages%2Fbanners%2Fcategory-3.png&w=1080&q=75" className="w-100" alt=""/>
+         </div>
+         </Col>
+         </Row>
+         </Container>
+         </section>
+
+         <section className="defdef_hjyh  py-5">
+         <Container>
+          <Row>
+          <Col lg={6}>
+          <div className="ddffcc">
+            <h4>Top Ratings </h4>
+            <h6>View All</h6>
+          </div>
+         <Row className="hfhgfhh">
+         <Col lg={3}>
+         <div className="card_content_flash_deal_2">
+          <div className="ddee">
+          <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75" />
+          </div>
+          <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(10)</span>
+           </div>
+           <div className="ddddddd">
+           <h6>Camera</h6>
+           <h6>$3,300.00</h6>
+          </div>
+         </div>
+       </Col>
+       <Col lg={3}>
+         <div className="card_content_flash_deal_2">
+          <div className="ddee">
+          <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75" />
+          </div>
+          <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(10)</span>
+           </div>
+           <div className="ddddddd">
+           <h6>Camera</h6>
+           <h6>$3,300.00</h6>
+          </div>
+         </div>
+       </Col>
+       <Col lg={3}>
+         <div className="card_content_flash_deal_2">
+          <div className="ddee">
+          <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75" />
+          </div>
+          <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(10)</span>
+           </div>
+           <div className="ddddddd">
+           <h6>Camera</h6>
+           <h6>$3,300.00</h6>
+          </div>
+         </div>
+       </Col>
+       <Col lg={3}>
+         <div className="card_content_flash_deal_2">
+          <div className="ddee">
+          <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75" />
+          </div>
+          <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(10)</span>
+           </div>
+           <div className="ddddddd">
+           <h6>Camera</h6>
+           <h6>$3,300.00</h6>
+          </div>
+         </div>
+       </Col>
+          
+       </Row>
+       </Col>
+         <Col lg={6}>
+         <div className="ddffcc">
+            <h4>Featured Brands </h4>
+            <h6>View All</h6>
+          </div>
+          <Row>
+           <Col lg={6}>
+             <div className="deee">
+               <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flondon-britches.png&w=1080&q=75"  alt=""/>
+               <p>London Britches</p>
+             </div>
+           </Col>
+           <Col lg={6}>
+           <div className="deee">
+              <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fjim%20and%20jiko.png&w=1080&q=75" alt=""/>
+              <p>London Britches</p>
+           </div>
+           </Col>
+         </Row>
+         </Col>
+       </Row>
+     </Container>
+     </section>
+
+     <section className="bg-secondary pb-5">
+     <Container>
+         <div className="ddffcc pt-4 pb-3">
+            <h4>New Arrivals</h4>
+            <h6>View All</h6>
+          </div>
+       <Row className="py-2 bg-white">
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fimagegoggles.png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(2).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fbgwatch.png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(3).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(1).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(4).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+       </Row>
+     </Container>
+     </section>
 
      
 
