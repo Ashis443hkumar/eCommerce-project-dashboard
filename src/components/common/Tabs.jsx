@@ -51,7 +51,7 @@ function Tabs() {
           <Row>
           <Col lg={4}>
            <Card className="card_content_flash_deal">
-            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-2.png&w=640&q=75" />
+            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FAutomotive%2F1.Ford2019.png&w=640&q=75" />
           <Card.Body>
             <Card.Title>Classic Rolex Watch</Card.Title>
             <div className="rating">
@@ -73,7 +73,7 @@ function Tabs() {
            </Col>
            <Col lg={4}>
            <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-2.png&w=640&q=75" />
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FAutomotive%2F2.Audi2017.png&w=640&q=75" />
           <Card.Body>
             <Card.Title>Classic Rolex Watch</Card.Title>
             <div className="rating">
@@ -95,7 +95,7 @@ function Tabs() {
            </Col>
            <Col lg={4}>
            <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-2.png&w=640&q=75" />
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FAutomotive%2F3.Tesla2015.png&w=640&q=75" />
           <Card.Body>
             <Card.Title>Classic Rolex Watch</Card.Title>
             <div className="rating">
