@@ -71,6 +71,7 @@
 /* 3th desxction */
 .defdef_hjyh{
   background-color: aliceblue;
+  padding: 20px 5%;
 }
 .hfhgfhh{
   background-color: #ffff;
@@ -107,4 +108,17 @@
 }
 .deee img{
   width: 100%;
+}
+/* abc_5 */
+.abc_5{
+  background-color: beige;
+  padding: 20px 5%;
+}
+/* tabs section pages */
+.tabs_section{
+  padding: 30px 5%;
+  background-color: azure;
+}
+.tabs_section .ddffcc{
+  padding-top: -130px;
 }

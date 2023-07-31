@@ -5,12 +5,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Tabs from "./Tabs";
 
 export default function Hero() {
   return (
    <>
 
-     <Container>
+     <section>
+      <Container>
        <Row>
          <Col lg={6} className="pt-5">
            <h1  className="pt-5 mt-5">50% Off For Your First Shopping.</h1>
@@ -19,14 +21,14 @@ export default function Hero() {
          <Col lg={6}>
            <img src="https://bazaar.ui-lib.com/assets/images/products/nike-black.png" alt=""/>
          </Col>
-
        </Row>
      </Container>
+     </section>
 
 
      {/* Flash Deals */}
      <section className="flash_deal">
-     <Container fluid className="">
+      <Container fluid className="">
        <div className="ddcc">
          <h4> <i class="fa-solid fa-bolt"></i> Flash Deals</h4>
          <h5>View All</h5>
@@ -127,7 +129,7 @@ export default function Hero() {
 
      {/* Top Categories */}
      <section className="flash_deal">
-     <Container fluid className="">
+      <Container fluid className="">
        <div className="ddcc">
          <h4> <i class="fa-solid fa-bolt"></i> Top Categories</h4>
          <h5>View All</h5>
@@ -146,15 +148,16 @@ export default function Hero() {
          </Col>
          <Col lg={4}>
          <div className="edgrtegytr">
-         <img src="https://bazaar.ui-lib.com/_next/image?    url=%2Fassets%2Fimages%2Fbanners%2Fcategory-3.png&w=1080&q=75" className="w-100" alt=""/>
+         <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-3.png&w=1080&q=75" className="w-100" alt=""/>
          </div>
          </Col>
          </Row>
          </Container>
-         </section>
+       </section>
 
-         <section className="defdef_hjyh  py-5">
-         <Container>
+        {/* Top Ratings Featured Brands */}
+       <section className="defdef_hjyh  py-5">
+         <Container fluid>
           <Row>
           <Col lg={6}>
           <div className="ddffcc">
@@ -238,9 +241,9 @@ export default function Hero() {
           </div>
          </div>
        </Col>
-          
        </Row>
        </Col>
+
          <Col lg={6}>
          <div className="ddffcc">
             <h4>Featured Brands </h4>
@@ -265,8 +268,10 @@ export default function Hero() {
      </Container>
      </section>
 
-     <section className="bg-secondary pb-5">
-     <Container>
+
+     {/* New Arrivals    */}
+     <section className="bg-secondary abc_5 pb-5 ">
+      <Container fluid className="">
          <div className="ddffcc pt-4 pb-3">
             <h4>New Arrivals</h4>
             <h6>View All</h6>
@@ -306,7 +311,52 @@ export default function Hero() {
      </Container>
      </section>
 
-     
+     {/* Big Discounts */}
+     <section className="bg-secondary abc_5 pb-5 ">
+      <Container fluid className="">
+         <div className="ddffcc pt-4 pb-3">
+            <h4>Big Discount</h4>
+            <h6>View All</h6>
+          </div>
+       <Row className="py-2 bg-white">
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fimagegoggles.png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(2).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fbgwatch.png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(3).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(1).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+         <Col lg={2} className="py-1 text-center">
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(4).png&w=384&q=75" className="w-100 my-2" alt=""/>
+           <h5>Sunglass</h5>
+           <h>$150.00</h>
+         </Col>
+       </Row>
+     </Container>
+     </section>
+
+
+
+    {/* tabs */}
+    <Tabs/>
 
 
    </>
