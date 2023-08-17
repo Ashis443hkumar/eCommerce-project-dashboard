@@ -379,68 +379,95 @@ export default function Hero() {
       </Container>
     </section>
 
-
-
     {/* tabs Optics / Watch */}
     <Tabs/>
 
-    <section className="my-4">
-     <Container>
+  
+  
+
+    <section className="my-4 px-5 py-5 bg-secondary">
+     <Container fluid>
        <div className="ddcc">
          <h4> <i class="fa-solid fa-bolt"></i>Categories</h4>
          <h5>View All</h5>
        </div>   
        <Row>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
 
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className="">
+           <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
        </Row>
+
        <Row className="mt-4">
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+
+         <Col lg={2} className="">
+           <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
-         <Col lg={2} className="border px-0">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-          <span>Automobile</span>
+         <Col lg={2} className=" ">
+         <div className="bg-white">
+             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
+             <span>Automobile</span>
+           </div>
          </Col>
        </Row>
      </Container>
@@ -788,6 +815,10 @@ export default function Hero() {
      
        </Row>
      </Container>
+     </section>
+
+     <section>
+
      </section>
 
      <section className="px-5 footer">
