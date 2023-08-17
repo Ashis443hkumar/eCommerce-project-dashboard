@@ -14,6 +14,7 @@ import Tabs from "./Tabs";
 function Tabs() {
   return (
 
+    
   
   
     <section className="tabs_section"> 
