@@ -12,6 +12,8 @@ import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
+// import Data from "../../data/Data"
+import CarBikeData from "../../data/CarBikeData"
 
 export default function Hero() {
   return (
@@ -482,347 +484,73 @@ export default function Hero() {
          <h5>View All</h5>
        </div>
        <Row>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F22.YamahaR15Black.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F23.YamahaR15Blue.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F24.Revel2020.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-       </Row>
-        {/* 2nd row */}
-       <Row className="mt-4">
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F1.Siri2020.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F25.JacksonTB1.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F2.COSOR1.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F24.Revel2020.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-       </Row>
-       {/* 3rd row */}
-       <Row className="mt-4">
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F22.YamahaR15Black.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F23.YamahaR15Blue.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={3}>
-         <Card className="card_content_flash_deal">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F24.Revel2020.png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Classic Rolex Watch</Card.Title>
-            <div className="rating">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            </div>
-            <div className="price_flash_deals">
-             <div className="dd">
-              <span className="price1">$297.50</span>
-              <span>$350.00</span>
-             </div>
-             <button><i class="fa-solid fa-plus"></i></button>
-            </div>
-          </Card.Body>
-         </Card>
-         </Col>
-       </Row>
+         {
+           CarBikeData.map((value, index) =>{
+             return ( 
+              <>
+              <Col lg={3}>
+              <Card className="card_content_flash_deal">
+                <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75" />
+                <Card.Body>
+                  <Card.Title> {value.title} </Card.Title>
+                  <div className="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div className="price_flash_deals">
+                  <div className="dd">
+                    <span className="price1">$297.50</span>
+                    <span>$350.00</span>
+                  </div>
+                  <button><i class="fa-solid fa-plus"></i></button>
+                  </div>
+                </Card.Body>
+              </Card>
+              </Col>
+
+            </>
+             )
+           })
+         }
+        </Row>
      </Container>
      </section>
 
      <section className="px-5 py-5 text-center">
-     <Container fluid>
+      <Container fluid>
        <Row>
-        <Col lg={}>
-        <Card style={{ width: '18rem' }} className=" py-3">
-        <Card.Body>
-        <div >
-           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
-        </div>
-        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
-        <Card.Text className="p-4 pt-2">
-          We offer competitive prices on our 100 million plus product any range
-        </Card.Text>
-       </Card.Body>
-       </Card>
-      </Col>
-      <Col lg={}>
-        <Card style={{ width: '18rem' }} className=" py-3">
-        <Card.Body>
-        <div >
-           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
-        </div>
-        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
-        <Card.Text className="p-4 pt-2">
-          We offer competitive prices on our 100 million plus product any range
-        </Card.Text>
-       </Card.Body>
-       </Card>
-      </Col>
-      <Col lg={}>
-        <Card style={{ width: '18rem' }} className=" py-3">
-        <Card.Body>
-        <div >
-           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
-        </div>
-        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
-        <Card.Text className="p-4 pt-2">
-          We offer competitive prices on our 100 million plus product any range
-        </Card.Text>
-       </Card.Body>
-       </Card>
-      </Col> <Col lg={}>
-        <Card style={{ width: '18rem' }} className=" py-3">
-        <Card.Body>
-        <div >
-           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
-        </div>
-        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
-        <Card.Text className="p-4 pt-2">
-          We offer competitive prices on our 100 million plus product any range
-        </Card.Text>
-       </Card.Body>
-       </Card>
-      </Col>
-      
-
-     
+         {
+           Data.map((value, index) =>{
+             return(
+               <>
+               <Col lg={}>
+                <Card style={{ width: '18rem' }} className=" py-3">
+                <Card.Body>
+                <div >
+                  <i class={value.icons} style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
+                </div>
+                <Card.Title className=" mt-3">{value.title}</Card.Title>
+                <Card.Text className="p-4 pt-2">
+                  {value.subtitle}
+                </Card.Text>
+              </Card.Body>
+              </Card>
+              </Col>
+               
+               </>
+             )
+           })
+         }
        </Row>
      </Container>
      </section>
 
-     <section>
-
-     </section>
 
      <section className="px-5 footer">
-     <Container fluid>
+      <Container fluid>
        <Row>
          <Col lg={4}>
            <img src="https://bazaar.ui-lib.com/assets/images/logo.svg" alt=""/>
