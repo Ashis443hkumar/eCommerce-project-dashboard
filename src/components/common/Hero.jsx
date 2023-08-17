@@ -729,6 +729,106 @@ export default function Hero() {
      </Container>
      </section>
 
+     <section className="px-5 py-5 text-center">
+     <Container fluid>
+       <Row>
+        <Col lg={}>
+        <Card style={{ width: '18rem' }} className=" py-3">
+        <Card.Body>
+        <div >
+           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
+        </div>
+        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
+        <Card.Text className="p-4 pt-2">
+          We offer competitive prices on our 100 million plus product any range
+        </Card.Text>
+       </Card.Body>
+       </Card>
+      </Col>
+      <Col lg={}>
+        <Card style={{ width: '18rem' }} className=" py-3">
+        <Card.Body>
+        <div >
+           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
+        </div>
+        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
+        <Card.Text className="p-4 pt-2">
+          We offer competitive prices on our 100 million plus product any range
+        </Card.Text>
+       </Card.Body>
+       </Card>
+      </Col>
+      <Col lg={}>
+        <Card style={{ width: '18rem' }} className=" py-3">
+        <Card.Body>
+        <div >
+           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
+        </div>
+        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
+        <Card.Text className="p-4 pt-2">
+          We offer competitive prices on our 100 million plus product any range
+        </Card.Text>
+       </Card.Body>
+       </Card>
+      </Col> <Col lg={}>
+        <Card style={{ width: '18rem' }} className=" py-3">
+        <Card.Body>
+        <div >
+           <i class="fa-solid fa-truck" style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
+        </div>
+        <Card.Title className=" mt-3">Worldwide Delivery</Card.Title>
+        <Card.Text className="p-4 pt-2">
+          We offer competitive prices on our 100 million plus product any range
+        </Card.Text>
+       </Card.Body>
+       </Card>
+      </Col>
+      
+
+     
+       </Row>
+     </Container>
+     </section>
+
+     <section className="px-5 footer">
+     <Container fluid>
+       <Row>
+         <Col lg={4}>
+           <img src="https://bazaar.ui-lib.com/assets/images/logo.svg" alt=""/>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+         </Col>
+         <Col lg={2}>
+           <h4>About Us</h4>
+           <ul>
+             <li>Careers</li>
+             <li>Our Stores</li>
+             <li>Our Cares</li>
+             <li>Terms & Conditions</li>
+             <li>Privacy Policy</li>
+           </ul>
+         </Col>
+         <Col lg={3}>
+           <h4>Customer Care</h4>
+           <ul>
+             <li>Help Center</li>
+             <li>How to Buy</li>
+             <li>Track Your Order</li>
+             <li>Corporate & Bulk Purchasing</li>
+             <li>Returns & Refunds</li>
+           </ul>
+         </Col>
+         <Col lg={3}>
+           <h4>Contact Us</h4>
+           <p>70 Washington Square South, New York, NY 10012, United States</p>
+           <span></span>
+           <email> Email: uilib.help@gmail.com</email>
+           <phone>Phone: +1 1123 456 780</phone>
+
+         </Col>
+       </Row>
+     </Container>
+     </section>
+
    </>
   );
 }

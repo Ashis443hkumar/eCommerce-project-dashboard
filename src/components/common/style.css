@@ -128,3 +128,13 @@
 .home_banner{
   padding: 20px 5%;
 }
+.footer{
+  background-color: rgb(6, 35, 47);
+  color: #fff;
+  padding: 70px 0;
+}
+.footer ul li{
+  list-style: none;
+  margin-left: -30px;
+  padding: 4px 0;
+}
