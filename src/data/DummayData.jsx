@@ -1,4 +1,33 @@
 
+export const topFeature =[
+  {
+    id:"1",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$149.00"
+  },
+  {
+    id:"2",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$199.120"
+  },
+  {
+    id:"3",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$340.00"
+  },
+  {
+    id:"4",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fcamera-1.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$440.00"
+  },
+]
+
+// new arriable
+
 export const BigDiscount = [
   {
     id:"1",

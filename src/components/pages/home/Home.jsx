@@ -5,6 +5,8 @@ import {supportData} from "../../../data/DummayData";
 import {CarBikeData} from "../../../data/DummayData";
 import {abcd} from "../../../data/DummayData";
 import {BigDiscount} from "../../../data/DummayData";
+import {topFeature} from "../../../data/DummayData";
+
 
 
 
@@ -16,6 +18,60 @@ import Heading from "../../common/heading/Heading";
 export default function Home() {
   return (
    <>
+     
+       {/* Top Ratings Featured Brands */}
+       <section className="defdef_hjyh  py-5">
+        <Container fluid>
+         <Row>
+          <Col lg={6}>
+          <Heading title="Top Ratings dfgg " title2="View All" />
+           <Row className="hfhgfhh">
+           {
+             topFeature.map((value) =>(
+              <Col lg={3}>
+              <div className="card_content_flash_deal_2">
+               <div className="ddee">
+               <img src={value.img} />
+               </div>
+               <div className="rating">
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <i class="fa-solid fa-star"></i>
+                 <span>(10)</span>
+                </div>
+                <div className="ddddddd">
+                <h6>Camera</h6>
+                <h6>{value.price}</h6>
+               </div>
+              </div>
+            </Col>
+             ))
+           }
+         </Row>
+        </Col>
+
+         <Col lg={6}>
+          <Heading title="Featured Brands" title2="View All" />
+          <Row>
+           <Col lg={6}>
+             <div className="deee">
+               <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flondon-britches.png&w=1080&q=75"  alt=""/>
+               <p>London Britches</p>
+             </div>
+           </Col>
+           <Col lg={6}>
+           <div className="deee">
+              <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fjim%20and%20jiko.png&w=1080&q=75" alt=""/>
+              <p>London Britches</p>
+           </div>
+           </Col>
+         </Row>
+         </Col>
+        </Row>
+        </Container>
+       </section>
      
       {/* New Arrivals    */}
      <section className="bg-secondary abc_5 pb-5  ">
