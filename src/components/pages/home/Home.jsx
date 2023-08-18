@@ -8,22 +8,118 @@ import {BigDiscount} from "../../../data/DummayData";
 import {topFeature} from "../../../data/DummayData";
 import {CategoriesSlide} from "../../../data/DummayData";
 
-
-
+import Heading from "../../common/heading/Heading";
 
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Heading from "../../common/heading/Heading";
 
 export default function Home() {
   return (
-   <>
-      {/* Top Categories */}
+     <>
+        {/* Flash Deals */}
       <section className="flash_deal">
       <Container fluid className="">
-       <Heading title="Top Categories " itag="fa-solid fa-bolt" title2="View All" />
+       <Heading title="Flash Deals " itag="fa-solid fa-bolt" title2="View All" />
        <Row>
+         <Col lg={3}>
+         <Card className="card_content_flash_deal">
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-2.png&w=640&q=75" />
+          <Card.Body>
+            <Card.Title>Classic Rolex Watch</Card.Title>
+            <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <div className="price_flash_deals">
+             <div className="dd">
+              <span className="price1">$297.50</span>
+              <span>$350.00</span>
+             </div>
+             <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </Card.Body>
+         </Card>
+         </Col>
+         <Col lg={3}>
+         <Card className="card_content_flash_deal">
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-3.png&w=640&q=75" />
+          <Card.Body>
+            <Card.Title>Classic Rolex Watch</Card.Title>
+            <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <div className="price_flash_deals">
+             <div className="dd">
+              <span className="price1">$297.50</span>
+              <span>$350.00</span>
+             </div>
+             <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </Card.Body>
+         </Card>
+         </Col>
+         <Col lg={3}>
+         <Card className="card_content_flash_deal">
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-4.png&w=640&q=75" />
+          <Card.Body>
+            <Card.Title>Classic Rolex Watch</Card.Title>
+            <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <div className="price_flash_deals">
+             <div className="dd">
+              <span className="price1">$297.50</span>
+              <span>$350.00</span>
+             </div>
+             <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </Card.Body>
+         </Card>
+         </Col>
+         <Col lg={3}>
+         <Card className="card_content_flash_deal">
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fflash-1.png&w=640&q=75" />
+          <Card.Body>
+            <Card.Title>Classic Rolex Watch</Card.Title>
+            <div className="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <div className="price_flash_deals">
+             <div className="dd">
+              <span className="price1">$297.50</span>
+              <span>$350.00</span>
+             </div>
+             <button><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </Card.Body>
+         </Card>
+         </Col>
+       </Row>
+     </Container>
+     </section>
+
+
+       {/* Top Categories */}
+       <section className="flash_deal">
+        <Container fluid className="">
+        <Heading title="Top Categories " itag="fa-solid fa-bolt" title2="View All" />
+        <Row>
          {
            CategoriesSlide.map((value) =>(
             <Col lg={4} className="">
@@ -91,6 +187,7 @@ export default function Home() {
         </Container>
        </section>
      
+
       {/* New Arrivals    */}
      <section className="bg-secondary abc_5 pb-5  ">
       <Container fluid className="">
