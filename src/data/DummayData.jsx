@@ -1,6 +1,67 @@
 
+export const abcd =[
+  {
+    id:"1",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"2",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"3",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"4",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"5",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"6",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"7",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"8",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
+  {
+    id:"9",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  }, {
+    id:"10",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  }, {
+    id:"11",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  }, {
+    id:"12",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75",
+    title:"Automobile",
+  },
 
-export  const CarBikeData = [
+]
+
+
+export const CarBikeData = [
   {
     id:"1",
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75",

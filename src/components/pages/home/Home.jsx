@@ -3,6 +3,8 @@ import {Container, Row,Col } from "react-bootstrap";
 import Sdata from "../../../data/Sdata";
 import {supportData} from "../../../data/DummayData";
 import {CarBikeData} from "../../../data/DummayData";
+import {abcd} from "../../../data/DummayData";
+
 
 
 import Button from 'react-bootstrap/Button';
@@ -18,87 +20,25 @@ export default function Home() {
          <h5>View All</h5>
        </div>   
        <Row>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-
-         <Col lg={2} className="">
-           <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-       </Row>
-
-       <Row className="mt-4">
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-
-         <Col lg={2} className="">
-           <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-         <Col lg={2} className=" ">
-         <div className="bg-white">
-             <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FAccessories%2F11.SunglassesCollection.png&w=1080&q=75" style={{width:"60px", height:"60px"}} alt="" />
-             <span>Automobile</span>
-           </div>
-         </Col>
-       </Row>
+         {
+           abcd.map((value, index)=>{
+             return (
+               <>
+                <Col lg={2} className="mb-4" key={index.id}>
+                <div className="bg-white">
+                    <img src={value.img} style={{width:"60px", height:"60px"}} alt="" />
+                    <span>{value.title}</span>
+                  </div>
+                </Col>
+               </>
+             )
+           })
+         }
+         
+       </Row>  
      </Container>
     </section>
-    
+
    <Sdata/>
    <section className="flash_deal">
       <Container fluid className="">
