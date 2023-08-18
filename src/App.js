@@ -8,13 +8,17 @@ import Hero from "./components/common/Hero"
 
 import Header from "./components/common/Header"
 
+import Home from "./components/pages/home/Home"
+
+
 
 export default function App() {
   return (
     <div>
       <Head/>
       <Header/>
-      <Hero/>
+      <Home/>
+      {/* <Hero/> */}
     </div>
   );
 }
