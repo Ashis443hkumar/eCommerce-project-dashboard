@@ -1,4 +1,43 @@
 
+export const BigDiscount = [
+  {
+    id:"1",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fimagegoggles.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$140.00"
+  },
+  {
+    id:"2",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(2).png&w=384&q=75",
+    title:"Sunglass",
+    price:"$290.00"
+  },
+  {
+    id:"3",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fbgwatch.png&w=384&q=75",
+    title:"Sunglass",
+    price:"$150.00"
+  },
+  {
+    id:"4",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(3).png&w=384&q=75",
+    title:"Sunglass",
+    price:"$300.00"
+  },
+  {
+    id:"5",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(1).png&w=384&q=75",
+    title:"Sunglass",
+    price:"$199.00"
+  },
+  {
+    id:"6",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(4).png&w=384&q=75",
+    title:"Sunglass",
+    price:"$131.00"
+  },
+]
+
 export const abcd =[
   {
     id:"1",
@@ -67,8 +106,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75",
     title:"Tarz T3",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$199.70",
+    OfferPrice:"$453.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -76,7 +115,7 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F22.YamahaR15Black.png&w=640&q=75",
     title:"Xamaha R15 Black",
     rating:"",
-    price:"$164.70",
+    price:"$399.70",
     OfferPrice:"$183.00",
     icons:"fa-solid fa-plus"
   },
@@ -85,7 +124,7 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F23.YamahaR15Blue.png&w=640&q=75",
     title:"Xamaha R15 Blue",
     rating:"",
-    price:"$164.70",
+    price:"$160.70",
     OfferPrice:"$183.00",
     icons:"fa-solid fa-plus"
   },
@@ -94,8 +133,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F24.Revel2020.png&w=640&q=75",
     title:"Xevel 2020",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$199.70",
+    OfferPrice:"$123.00",
     icons:"fa-solid fa-plus"
   },
 
@@ -104,7 +143,7 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F3.PanasonicCharge.png&w=640&q=75",
     title:"Lumix DSlR",
     rating:"",
-    price:"$164.70",
+    price:"$1614.70",
     OfferPrice:"$183.00",
     icons:"fa-solid fa-plus"
   },
@@ -113,8 +152,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F4.LumixDSLR.png&w=640&q=75",
     title:"Atech Cam 1080p",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$204.70",
+    OfferPrice:"$593.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -122,7 +161,7 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F5.AtechCam1080p.png&w=640&q=75",
     title:"Tony a9",
     rating:"",
-    price:"$164.70",
+    price:"$764.70",
     OfferPrice:"$183.00",
     icons:"fa-solid fa-plus"
   },
@@ -131,8 +170,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F6.Sonya9.png&w=640&q=75",
     title:"beat sw3",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$664.70",
+    OfferPrice:"$983.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -140,8 +179,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75",
     title:"Jackson TB1",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$174.70",
+    OfferPrice:"$583.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -149,8 +188,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F1.Siri2020.png&w=640&q=75",
     title:"Jackson TB1",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$764.70",
+    OfferPrice:"$383.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -158,8 +197,8 @@ export const CarBikeData = [
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FElectronics%2F2.COSOR1.png&w=640&q=75",
     title:"Jackson TB1",
     rating:"",
-    price:"$164.70",
-    OfferPrice:"$183.00",
+    price:"$194.70",
+    OfferPrice:"$1813.00",
     icons:"fa-solid fa-plus"
   },
   {
@@ -168,7 +207,7 @@ export const CarBikeData = [
     title:"Ranasonic Charger",
     rating:"",
     price:"$164.70",
-    OfferPrice:"$183.00",
+    OfferPrice:"$1183.00",
     icons:"fa-solid fa-plus"
   },
 

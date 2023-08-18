@@ -4,6 +4,8 @@ import Sdata from "../../../data/Sdata";
 import {supportData} from "../../../data/DummayData";
 import {CarBikeData} from "../../../data/DummayData";
 import {abcd} from "../../../data/DummayData";
+import {BigDiscount} from "../../../data/DummayData";
+
 
 
 
@@ -14,8 +16,26 @@ import Heading from "../../common/heading/Heading";
 export default function Home() {
   return (
    <>
+     
+     {/* Big Discounts */}
+     <section className="bg-secondary abc_5 pb-5  ">
+      <Container fluid className="">
+        <Heading title="Big Discount" title2="View All" />
+       <Row className="py-2 bg-white">
+         {
+           BigDiscount.map((value) =>(
+            <Col lg={2} className="py-1 text-center">
+            <img src={value.img} className="w-100 my-2" alt=""/>
+            <h5>{value.title}</h5>
+            <h>{value.price}</h>
+          </Col>
+           ))
+         }
+       </Row>
+     </Container>
+     </section>
 
-    <section className="mt-5 home_banner">
+     <section className="mt-5 px-5 home_banner">
       <Container fluid>
         <Row>
           <Col lg={4}>
@@ -26,78 +46,65 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-    </section>
+     </section>
 
-   <section className="px-5 py-5 bg-secondary">
-     <Container fluid>
-     <Heading title="Categories" title2="View All" />
+     <section className="px-5 py-5 bg-secondary">
+      <Container fluid>
+      <Heading title="Categories" title2="View All" />
        <Row>
          {
-           abcd.map((value, index)=>{
-             return (
-               <>
-                <Col lg={2} className="mb-4" key={index.id}>
-                <div className="bg-white">
-                    <img src={value.img} style={{width:"60px", height:"60px"}} alt="" />
-                    <span>{value.title}</span>
-                  </div>
-                </Col>
-               </>
-             )
-           })
+           abcd.map((value, index)=>(
+            <Col lg={2} className="mb-4" key={index.id}>
+            <div className="bg-white">
+                <img src={value.img} style={{width:"60px", height:"60px"}} alt="" />
+                <span>{value.title}</span>
+              </div>
+            </Col>
+           ))
          }
-         
        </Row>  
      </Container>
     </section>
 
-    <section className="flash_deal">
+     <section className="flash_deal">
       <Container fluid className="">
       <Heading title="Categories" itag="fa-solid fa-bolt" title2="View All" />
        <Row>
          {
-           CarBikeData.map((value, index) =>{
-             return ( 
-              <>
+           CarBikeData.map((value, index) =>(
               <Col lg={3}>
               <Card className="card_content_flash_deal">
-                <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75" />
+                <Card.Img variant="top" src={value.img} />
                 <Card.Body>
                   <Card.Title> {value.title} </Card.Title>
                   <div className="rating">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
                   </div>
                   <div className="price_flash_deals">
-                  <div className="dd">
-                    <span className="price1">$297.50</span>
-                    <span>$350.00</span>
-                  </div>
+                   <div className="dd">
+                    <span className="price1">{value.price}</span>
+                    <span>{value.OfferPrice}</span>
+                   </div>
                   <button><i class={value.icons}></i></button>
                   </div>
                 </Card.Body>
               </Card>
               </Col>
-            </>
-             )
-           })
+           ))
          }
         </Row>
      </Container>
      </section>
 
-
-
-   <section className="px-5 py-5 text-center">
+     <section className="px-5 py-5 text-center">
       <Container fluid>
        <Row>
          {
-           supportData.map((value, index) =>{
-             return(
-               <>
+           supportData.map((value, index) =>(
                <Col lg={}>
                 <Card style={{ width: '18rem' }} className=" py-3">
                 <Card.Body>
@@ -112,22 +119,12 @@ export default function Home() {
               </Card>
               </Col>
                
-               </>
-             )
-           })
+            
+           ))
          }
        </Row>
-     </Container>
+      </Container>
      </section>
-
-
-     <Container>
-       <Row>
-         <Col lg={4}></Col>
-         <Col lg={4}></Col>
-         <Col lg={4}></Col>
-       </Row>
-     </Container>
      
    </>
   );
