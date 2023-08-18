@@ -135,33 +135,7 @@ export default function Hero() {
      </section>
 
 
-     {/* Top Categories */}
-     <section className="flash_deal">
-      <Container fluid className="">
-       <div className="ddcc">
-         <h4> <i class="fa-solid fa-bolt"></i> Top Categories</h4>
-         <h5>View All</h5>
-       </div>
-       <Row>
-         <Col lg={4} className="">
-           <div className="edgrtegytr">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-1.png&w=1080&q=75" className="w-100" alt=""/>
-           </div>
-         </Col>
-         <Col lg={4}>
-         <div className="edgrtegytr">
-
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-2.png&w=1080&q=75" className="w-100" alt=""/>
-           </div>
-         </Col>
-         <Col lg={4}>
-         <div className="edgrtegytr">
-         <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-3.png&w=1080&q=75" className="w-100" alt=""/>
-         </div>
-         </Col>
-         </Row>
-         </Container>
-       </section>
+    
 
      
 

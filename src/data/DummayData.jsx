@@ -1,4 +1,21 @@
 
+export const CategoriesSlide = [
+  {
+    id:"1",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-1.png&w=1080&q=75",
+    title:"Sunglass",
+  },
+  {
+    id:"2",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-2.png&w=1080&q=75",
+    title:"Sunglass",
+  },
+  {
+    id:"3",
+    img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fcategory-3.png&w=1080&q=75",
+    title:"Sunglass",
+  },
+]
 export const topFeature =[
   {
     id:"1",

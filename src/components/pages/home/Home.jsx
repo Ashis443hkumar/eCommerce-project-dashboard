@@ -6,6 +6,7 @@ import {CarBikeData} from "../../../data/DummayData";
 import {abcd} from "../../../data/DummayData";
 import {BigDiscount} from "../../../data/DummayData";
 import {topFeature} from "../../../data/DummayData";
+import {CategoriesSlide} from "../../../data/DummayData";
 
 
 
@@ -18,6 +19,23 @@ import Heading from "../../common/heading/Heading";
 export default function Home() {
   return (
    <>
+      {/* Top Categories */}
+      <section className="flash_deal">
+      <Container fluid className="">
+       <Heading title="Top Categories " itag="fa-solid fa-bolt" title2="View All" />
+       <Row>
+         {
+           CategoriesSlide.map((value) =>(
+            <Col lg={4} className="">
+             <div className="edgrtegytr">
+              <img src={value.img} className="w-100" alt=""/>
+            </div>
+           </Col>
+           ))
+         }
+         </Row>
+         </Container>
+       </section>
      
        {/* Top Ratings Featured Brands */}
        <section className="defdef_hjyh  py-5">
