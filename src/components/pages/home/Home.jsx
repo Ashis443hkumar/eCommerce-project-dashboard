@@ -17,6 +17,24 @@ export default function Home() {
   return (
    <>
      
+      {/* New Arrivals    */}
+     <section className="bg-secondary abc_5 pb-5  ">
+      <Container fluid className="">
+        <Heading title="New Arrivals " title2="View All" />
+       <Row className="py-2 bg-white">
+         {
+           BigDiscount.map((value) =>(
+            <Col lg={2} className="py-1 text-center">
+            <img src={value.img} className="w-100 my-2" alt=""/>
+            <h5>{value.title}</h5>
+            <h>{value.price}</h>
+          </Col>
+           ))
+         }
+       </Row>
+     </Container>
+     </section>
+
      {/* Big Discounts */}
      <section className="bg-secondary abc_5 pb-5  ">
       <Container fluid className="">
@@ -34,7 +52,8 @@ export default function Home() {
        </Row>
      </Container>
      </section>
-
+      
+      {/* home-banner */}
      <section className="mt-5 px-5 home_banner">
       <Container fluid>
         <Row>
@@ -48,6 +67,7 @@ export default function Home() {
       </Container>
      </section>
 
+      {/* sdsdd */}
      <section className="px-5 py-5 bg-secondary">
       <Container fluid>
       <Heading title="Categories" title2="View All" />
@@ -66,6 +86,7 @@ export default function Home() {
      </Container>
     </section>
 
+      {/* flash_deal */}
      <section className="flash_deal">
       <Container fluid className="">
       <Heading title="Categories" itag="fa-solid fa-bolt" title2="View All" />
@@ -93,13 +114,14 @@ export default function Home() {
                   </div>
                 </Card.Body>
               </Card>
-              </Col>
+             </Col>
            ))
          }
         </Row>
      </Container>
      </section>
 
+       {/* website support  */}
      <section className="px-5 py-5 text-center">
       <Container fluid>
        <Row>

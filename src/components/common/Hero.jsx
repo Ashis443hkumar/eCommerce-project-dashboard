@@ -277,47 +277,7 @@ export default function Hero() {
      </section>
 
 
-     {/* New Arrivals    */}
-     <section className="bg-secondary abc_5 pb-5 ">
-      <Container fluid className="">
-         <div className="ddffcc pt-4 pb-3">
-            <h4>New Arrivals</h4>
-            <h6>View All</h6>
-          </div>
-       <Row className="py-2 bg-white">
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fimagegoggles.png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(2).png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fbgwatch.png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(3).png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(1).png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-         <Col lg={2} className="py-1 text-center">
-           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flipstick%20(4).png&w=384&q=75" className="w-100 my-2" alt=""/>
-           <h5>Sunglass</h5>
-           <h>$150.00</h>
-         </Col>
-       </Row>
-     </Container>
-     </section>
+  
 
      
 
