@@ -70,7 +70,7 @@ export default function Home() {
                     <span className="price1">$297.50</span>
                     <span>$350.00</span>
                   </div>
-                  <button><i class="fa-solid fa-plus"></i></button>
+                  <button><i class={value.icons}></i></button>
                   </div>
                 </Card.Body>
               </Card>

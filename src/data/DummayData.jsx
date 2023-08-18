@@ -69,7 +69,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"2",
@@ -78,7 +78,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"3",
@@ -87,7 +87,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"4",
@@ -96,7 +96,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
 
   {
@@ -106,7 +106,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"6",
@@ -115,7 +115,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"7",
@@ -124,7 +124,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"8",
@@ -133,16 +133,16 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"9",
     img:"https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FBikes%2F21.TarzT3.png&w=640&q=75",
-    title:"",
-    rating:"Jackson TB1",
+    title:"Jackson TB1",
+    rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"10",
@@ -151,7 +151,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"11",
@@ -160,7 +160,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
   {
     id:"12",
@@ -169,7 +169,7 @@ export const CarBikeData = [
     rating:"",
     price:"$164.70",
     OfferPrice:"$183.00",
-    icons:"+"
+    icons:"fa-solid fa-plus"
   },
 
 ]
