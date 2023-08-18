@@ -14,14 +14,23 @@ import Heading from "../../common/heading/Heading";
 export default function Home() {
   return (
    <>
+
+    <section className="mt-5 home_banner">
+      <Container fluid>
+        <Row>
+          <Col lg={4}>
+            <img className="w-100" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-1.png&w=640&q=75" alt=""/>
+          </Col>
+          <Col lg={8}>
+            <img className="w-100"  src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-2.png&w=828&q=75"  alt="" />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
    <section className="px-5 py-5 bg-secondary">
      <Container fluid>
      <Heading title="Categories" title2="View All" />
-
-       {/* <div className="ddcc">
-         <h4> <i class="fa-solid fa-bolt"></i></h4>
-         <h5>View All</h5>
-       </div>    */}
        <Row>
          {
            abcd.map((value, index)=>{
@@ -42,12 +51,9 @@ export default function Home() {
      </Container>
     </section>
 
-   <section className="flash_deal">
+    <section className="flash_deal">
       <Container fluid className="">
-       <div className="ddcc">
-         <h4><i class="fa-solid fa-bolt"></i>More For You</h4>
-         <h5>View All</h5>
-       </div>
+      <Heading title="Categories" itag="fa-solid fa-bolt" title2="View All" />
        <Row>
          {
            CarBikeData.map((value, index) =>{

@@ -368,18 +368,7 @@ export default function Hero() {
     {/* Mobile Phones */}
     <Tabs/>
 
-    <section className="mt-5 home_banner">
-      <Container fluid>
-        <Row>
-          <Col lg={4}>
-            <img className="w-100" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-1.png&w=640&q=75" alt=""/>
-          </Col>
-          <Col lg={8}>
-            <img className="w-100"  src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-2.png&w=828&q=75"  alt="" />
-          </Col>
-        </Row>
-      </Container>
-    </section>
+   
 
     {/* tabs Optics / Watch */}
     <Tabs/>
