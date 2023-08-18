@@ -9,16 +9,19 @@ import {abcd} from "../../../data/DummayData";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Heading from "../../common/heading/Heading";
 
 export default function Home() {
   return (
    <>
-   <section className="my-4 px-5 py-5 bg-secondary">
+   <section className="px-5 py-5 bg-secondary">
      <Container fluid>
-       <div className="ddcc">
-         <h4> <i class="fa-solid fa-bolt"></i>Categories</h4>
+     <Heading title="Categories" title2="View All" />
+
+       {/* <div className="ddcc">
+         <h4> <i class="fa-solid fa-bolt"></i></h4>
          <h5>View All</h5>
-       </div>   
+       </div>    */}
        <Row>
          {
            abcd.map((value, index)=>{
@@ -39,7 +42,6 @@ export default function Home() {
      </Container>
     </section>
 
-   <Sdata/>
    <section className="flash_deal">
       <Container fluid className="">
        <div className="ddcc">

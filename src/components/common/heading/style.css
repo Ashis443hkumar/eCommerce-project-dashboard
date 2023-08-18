@@ -1,0 +1,17 @@
+.ddd_heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ddd_heading h4{
+  color: aliceblue;
+  font-size: 21px;
+  line-height: 23px;
+  font-weight: 500;
+}
+.ddd_heading h5{
+  color: aliceblue;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
