@@ -137,12 +137,12 @@ export default function Home() {
        <section className="defdef_hjyh  py-5">
         <Container fluid>
          <Row>
-          <Col lg={6}>
+          <Col lg={6} md={6} sm={12}>
           <Heading title="Top Ratings dfgg " title2="View All" />
            <Row className="hfhgfhh">
            {
              topFeature.map((value) =>(
-              <Col lg={3}>
+              <Col lg={3} md={6} sm={6}>
               <div className="card_content_flash_deal_2">
                <div className="ddee">
                <img src={value.img} />
@@ -166,16 +166,16 @@ export default function Home() {
          </Row>
         </Col>
 
-         <Col lg={6}>
+         <Col lg={6} md={6} sm={12}>
           <Heading title="Featured Brands" title2="View All" />
           <Row>
-           <Col lg={6}>
+           <Col lg={6} md={} sm={6}>
              <div className="deee">
                <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Flondon-britches.png&w=1080&q=75"  alt=""/>
                <p>London Britches</p>
              </div>
            </Col>
-           <Col lg={6}>
+           <Col lg={6} md={6} sm={6}>
            <div className="deee">
               <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2Fjim%20and%20jiko.png&w=1080&q=75" alt=""/>
               <p>London Britches</p>
@@ -191,7 +191,7 @@ export default function Home() {
       {/* New Arrivals    */}
       <section className="bg-secondary abc_5 pb-5  ">
       <Container fluid className="">
-        <Heading title="Big Discount 877" title2="View All" />
+        <Heading title="New Arrivals " title2="View All" />
        <Row className="py-2 bg-white">
          {
            BigDiscount.map((value) =>(
