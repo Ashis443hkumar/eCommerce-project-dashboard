@@ -189,13 +189,13 @@ export default function Home() {
      
 
       {/* New Arrivals    */}
-     <section className="bg-secondary abc_5 pb-5  ">
+      <section className="bg-secondary abc_5 pb-5  ">
       <Container fluid className="">
-        <Heading title="New Arrivals " title2="View All" />
+        <Heading title="Big Discount 877" title2="View All" />
        <Row className="py-2 bg-white">
          {
            BigDiscount.map((value) =>(
-            <Col lg={2} className="py-1 text-center">
+            <Col lg={2} md={4} sm={4} xs={6} className="py-1 text-center">
             <img src={value.img} className="w-100 my-2" alt=""/>
             <h5>{value.title}</h5>
             <h>{value.price}</h>
@@ -209,11 +209,11 @@ export default function Home() {
      {/* Big Discounts */}
      <section className="bg-secondary abc_5 pb-5  ">
       <Container fluid className="">
-        <Heading title="Big Discount" title2="View All" />
+        <Heading title="Big Discount 877" title2="View All" />
        <Row className="py-2 bg-white">
          {
            BigDiscount.map((value) =>(
-            <Col lg={2} className="py-1 text-center">
+            <Col lg={2} md={4} sm={4} xs={6} className="py-1 text-center">
             <img src={value.img} className="w-100 my-2" alt=""/>
             <h5>{value.title}</h5>
             <h>{value.price}</h>
@@ -228,10 +228,10 @@ export default function Home() {
      <section className="mt-5 px-5 home_banner">
       <Container fluid>
         <Row>
-          <Col lg={4}>
+          <Col lg={4} md={4} xs={4}>
             <img className="w-100" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-1.png&w=640&q=75" alt=""/>
           </Col>
-          <Col lg={8}>
+          <Col lg={8} md={8} xs={8}>
             <img className="w-100"  src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-2.png&w=828&q=75"  alt="" />
           </Col>
         </Row>
@@ -241,11 +241,11 @@ export default function Home() {
       {/* sdsdd */}
      <section className="px-5 py-5 bg-secondary">
       <Container fluid>
-      <Heading title="Categories" title2="View All" />
+      <Heading title="Categories 665" title2="View All" />
        <Row>
          {
            abcd.map((value, index)=>(
-            <Col lg={2} className="mb-4" key={index.id}>
+            <Col xs={6} sm={4} md={3} lg={2} xxl={2} className="mb-4" key={index.id}>
             <div className="bg-white">
                 <img src={value.img} style={{width:"60px", height:"60px"}} alt="" />
                 <span>{value.title}</span>
@@ -264,7 +264,7 @@ export default function Home() {
        <Row>
          {
            CarBikeData.map((value, index) =>(
-              <Col lg={3}>
+              <Col xs={12} sm={6} md={4} lg={3}>
               <Card className="card_content_flash_deal">
                 <Card.Img variant="top" src={value.img} />
                 <Card.Body>
@@ -298,8 +298,8 @@ export default function Home() {
        <Row>
          {
            supportData.map((value, index) =>(
-               <Col lg={}>
-                <Card style={{ width: '18rem' }} className=" py-3">
+               <Col sm={6} md={6} lg={3}>
+                <Card className=" py-3">
                 <Card.Body>
                 <div >
                   <i class={value.icons} style={{width:"50px",  height:"50px", background:"#eee", borderRadius:"50%", texAlign:"center", lineHeight:"50px", justifyContent:"center", alignItems: "center",}}></i>
