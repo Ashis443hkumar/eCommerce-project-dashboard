@@ -302,6 +302,60 @@ export default function Home2() {
      </section>
 
 
+     <section className="px-5">
+        <Container fluid>
+        <Row>
+          <Col lg={6}>
+            <img src="https://bazaar.ui-lib.com/assets/images/banners/banner-21.jpg" className="w-100" alt=""/>
+          </Col>
+          <Col lg={6}>
+            <img src="https://bazaar.ui-lib.com/assets/images/banners/banner-22.jpg" className="w-100" alt=""/>
+          </Col>
+        </Row>
+      </Container>
+     </section>
+     <section className="px-5 my-3">
+       <Container fluid>
+        <Row>
+          <Col lg={4}>
+            <div className="ddc-4e ">
+              <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-18.jpg&w=384&q=75" alt=""/>
+            </div>
+          </Col>
+          <Col lg={4}>
+            <div className="ddc-4e">
+              <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-19.jpg&w=384&q=75" alt=""/>
+            </div>
+          </Col>
+          <Col lg={4} className="">
+            <div className="ddc-4e ">
+              <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-20.jpg&w=384&q=75" alt=""/>
+            </div>
+          </Col>
+        </Row>
+       </Container>
+      </section>
+
+     <section className="px-5 my-5">
+      <Container fluid>
+       <Row className="d-flex justify-content-center align-items-cnter">
+         <Col lg={4}>
+           <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fbanners%2Fbanner-20.jpg&w=384&q=75" alt=""/>
+         </Col>
+         <Col lg={6}>
+           <h1>GIFT 50% OFF PERFECT STYLES</h1>
+           <p>Only until the end of this week. Terms and conditions apply</p>
+         </Col>
+         <Col lg={2}>
+           <button>Discover Now</button>
+         </Col>
+       </Row>
+     </Container>
+     </section>
+     
+
+
+
 
      
      </>
