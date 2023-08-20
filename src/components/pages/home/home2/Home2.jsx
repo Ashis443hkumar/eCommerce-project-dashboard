@@ -463,9 +463,33 @@ export default function Home2() {
      </section>
 
 
-     
+     <section className="px-5 my-3">
+     <Container fluid className="bg-white py-4" >
+       <Row>
+         <Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col>
+         <Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col><Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col>
+         <Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col>
+         <Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col>
+         <Col lg={2}>
+           <img className="w-100" src="https://bazaar.ui-lib.com/assets/images/brands/alibaba.png" alt=""/>
+         </Col>
+         
+         
+       </Row>
+     </Container>
+     </section>
       
-     <section className="px-5 my-4 pt-5">
+     <section className="px-5 my-4">
         <Container fluid>
           {/* <Heading title="Selected Products" title2="More Products" /> */}
           <div className="select_product_home2 d-flex justify-content-between align-aitems-center ">
