@@ -79,17 +79,21 @@ export default function Furniture() {
                 </div>
              </div>
            </Col>
-           <Col lg={5}>
-           <div className="furniture_right_des">
+           <Col lg={5} className="fouth_right">
+            <Row>
+             <Col>
+             <div className="furniture_right_fouth_des">
                <div className="furntine_t_des">
                  <h4>Sofa Collection.</h4>
                  <h5>UP TO 50% OFF</h5>
                  <a href="">Shop Now</a>
                </div>
                 <div className="fournt_right_img">
-                <img src="https://bazaar.ui-lib.com/assets/images/Furniture%20Shop/Furniture%20(5).png" className="" alt=""/>
+                <img src="https://bazaar.ui-lib.com/assets/images/Furniture%20Shop/Furniture%20(4).png" className="" alt=""/>
                 </div>
-             </div>
+             </div></Col>
+            </Row>
+
            </Col>
          </Row>
         
