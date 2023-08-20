@@ -236,12 +236,67 @@ export default function Home2() {
        </Container>
       </section>
 
-      <section className="px-5">
+      <section className="px-5 my-4 pt-5">
        <Container fluid>
        <Row>
-         <Col lg={4}></Col>
-         <Col lg={4}></Col>
-         <Col lg={4}></Col>
+         <Col lg={3} className="bg-white p-4">
+           <h4>Electronic</h4>
+           <ul>
+             <li>Wireless Speaker</li>
+             <li>Tablet</li>
+             <li>Smartphone</li>
+             <li>Laptop</li>
+             <li>iMac</li>
+             <li>Game Controller</li>
+             <li>Drone</li>
+             <li>HoAppleme</li>
+           </ul>
+         </Col>
+         <Col lg={9}>
+         <Row>
+           <Col lg={3} className="text-center">
+            <Card>
+            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F21.YellowCasualSweater.png&w=384&q=75" />
+            <Card.Body>
+              <Card.Title>Silver High Neck Sweater</Card.Title>
+              <h4>$210.00</h4>
+              <Button variant="primary">Add To Cart</Button>
+            </Card.Body>
+            </Card>
+           </Col>
+           <Col lg={3} className="text-center">
+            <Card>
+            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F21.YellowCasualSweater.png&w=384&q=75" />
+            <Card.Body>
+              <Card.Title>Silver High Neck Sweater</Card.Title>
+              <h4>$210.00</h4>
+              <Button variant="primary">Add To Cart</Button>
+            </Card.Body>
+            </Card>
+           </Col>
+           <Col lg={3} className="text-center">
+            <Card>
+            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F21.YellowCasualSweater.png&w=384&q=75" />
+            <Card.Body>
+              <Card.Title>Silver High Neck Sweater</Card.Title>
+              <h4>$210.00</h4>
+              <Button variant="primary">Add To Cart</Button>
+            </Card.Body>
+            </Card>
+           </Col>
+           <Col lg={3} className="text-center">
+            <Card>
+            <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F21.YellowCasualSweater.png&w=384&q=75" />
+            <Card.Body>
+              <Card.Title>Silver High Neck Sweater</Card.Title>
+              <h4>$210.00</h4>
+              <Button variant="primary">Add To Cart</Button>
+            </Card.Body>
+            </Card>
+           </Col>
+
+          </Row>
+         </Col>
        </Row>
       </Container>
      </section>
