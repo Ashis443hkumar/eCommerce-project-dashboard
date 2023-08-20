@@ -1,0 +1,15 @@
+body{
+  background-color: #eeee;
+}
+
+.home2_hero .left_hero img{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+
+}
+.dddc{
+  background-color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}

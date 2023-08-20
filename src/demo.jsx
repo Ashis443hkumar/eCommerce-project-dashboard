@@ -5,16 +5,19 @@ import {Container, Row,Col } from "react-bootstrap";
 export default function demo() {
   return (
    <>
-     <Container>
+     <section className="px-5">
+     <Container fluid>
        <Row>
          <Col lg={4}></Col>
          <Col lg={4}></Col>
          <Col lg={4}></Col>
        </Row>
      </Container>
+     </section>
      
    </>
   );
 }
+
 
  
