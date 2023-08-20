@@ -10,7 +10,7 @@ import Header from "./components/common/Header"
 
 import Home from "./components/pages/home/Home"
 import Home2 from "./components/pages/home/home2/Home2"
-
+import Furniture from "./components/pages/home/home3/Furniture"
 
 
 
@@ -19,6 +19,7 @@ export default function App() {
     <div>
       <Head/>
       <Header/>
+      <Furniture/>
       <Home2/>
       <Home/>
       {/* <Hero/> */}
