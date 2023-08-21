@@ -26,16 +26,16 @@ export default function Furniture() {
          <div className="left_menu">
           <h4 className="top_tategories">Top Categories</h4>
           <ul>
-            <li>Chair</li>
-            <li>Grapes</li>
-            <li>Decors</li>
-            <li>Onion</li>
-            <li>Potato</li>
-            <li>Wardrobe</li>
-            <li>Dining</li>
-            <li>Living</li>
-            <li>Coffee Tea Table</li>
-            <li>Living Room Sets</li>
+            <li className="fourn_menu"><a href="">Chair </a> <i class="fa-solid fa-greater-than"></i> </li>
+            <li className="fourn_menu"><a href="">Grapes </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Decors </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Onion </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Potato </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Wardrobe </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Dining </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Living </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Coffee Tea Table </a> <i class="fa-solid fa-greater-than"></i></li>
+            <li className="fourn_menu"><a href="">Living Room Sets </a> <i class="fa-solid fa-greater-than"></i></li>
           </ul>
          </div>
          </Col>
