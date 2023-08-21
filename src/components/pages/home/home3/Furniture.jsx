@@ -126,9 +126,10 @@ export default function Furniture() {
        <Row>
          <Col lg={4}>
           <Card className="products_furntiure">
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(1).png&w=640&q=75" />
+          <Card.Img className="product_img" variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(1).png&w=640&q=75" />
           <Card.Body>
             <Card.Title>Study Gold Chair</Card.Title>
+            <p className="special_offer">5% off</p>
              <div className="card_desc">
               <div className="prces_define">
                <span className="price">$190.00</span>
