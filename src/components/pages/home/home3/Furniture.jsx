@@ -4,6 +4,8 @@ import {Container, Row,Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Hero from "./Hero";
+import {productNew} from "./Sdata";
+
 import "./style.css"
 
 export default function Furniture() {
@@ -120,134 +122,36 @@ export default function Furniture() {
      </Container>
      </section>
 
+
      {/* secction 2 */}
      <section className="px-5 my-5 furntiure_products ">
       <Container fluid>
        <h4>Top New Product</h4>
        <p>Tall blind but were, been folks not the expand</p>
        <Row>
-         <Col lg={4}>
-          <Card className="products_furntiure">
-          <Card.Img className="product_img" variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(1).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Study Gold Chair</Card.Title>
-            <p className="special_offer">5% off</p>
-             <div className="card_desc">
-              <div className="prces_define">
-               <span className="price">$190.00</span>
-               <span className="offers_price">$200.00</span>
-              </div>
-              <Button variant="outline-secondary" className="addtocard" ><i class="fa-solid fa-plus"></i></Button> 
-             </div>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-       </Row>
-     </Container>
-     </section>
-     
-     <section className="px-5 my-5">
-      <Container fluid>
-       <h4>Top New Product</h4>
-       <p>Tall blind but were, been folks not the expand</p>
-       <Row>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-       </Row>
-     </Container>
-     </section>
-     
-     <section className="px-5 my-5">
-      <Container fluid>
-       <h4>Top New Product</h4>
-       <p>Tall blind but were, been folks not the expand</p>
-       <Row>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
-          <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
-          </Card.Body>
-         </Card>
-         </Col>
+         {
+           productNew.map((value, index) =>(
+            <Col lg={4}>
+            <Card className="products_furntiure">
+            <Card.Img className="product_img" variant="top" src={value.img} />
+            <Card.Body>
+              <Card.Title>Study Gold Chair</Card.Title>
+              <p className="special_offer">5% off</p>
+               <div className="card_desc">
+                <div className="prces_define">
+                 <span className="price">$190.00</span>
+                 <span className="offers_price">$200.00</span>
+                </div>
+                <Button variant="outline-secondary" className="addtocard" ><i class="fa-solid fa-plus"></i></Button> 
+               </div>
+            </Card.Body>
+           </Card>
+           </Col>
+           ))
+         }
+        
+
+      
        </Row>
      </Container>
      </section>
