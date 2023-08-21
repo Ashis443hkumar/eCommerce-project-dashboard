@@ -4,15 +4,6 @@
 .carousel-control-next{
   display: none;
 }
-.carousel-indicators {
-  /* position: absolute;
-  top: 68%;
-  left: -79%;
-  z-index: 2;
-  padding: 0;
-  color: #fff; */
-}
-
 .carousel-indicators [data-bs-target] {
   width: 20px;
   height: 20px;
@@ -46,13 +37,23 @@
 .caption_caousel p{
   font-size: 19px;
 }
+.furn_comp_btn{
+  border: none;
+  outline: none;
+  background-color: #4bcffa;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 19px;
+  font-weight: 400;
+
+}
 
 /* hero end */
 
 
 
 .fourtune_section{
-  margin: 40px 0%;
+  margin: 60px 0%;
 }
 .top_tategories{
   border-bottom: 2px dotted #4bcffa;

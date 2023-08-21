@@ -21,7 +21,7 @@ export default function Hero() {
           <p>Our innovative technology and creative expertise empower us to transform your vision
 						into a tangible solution.</p>
           <br/>
-          <button className="comp_btn">Shop Now</button>
+          <button className="furn_comp_btn">Shop Now</button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -37,7 +37,7 @@ export default function Hero() {
           <p>Our innovative technology and creative expertise empower us to transform your vision
 						into a tangible solution.</p>
           <br/>
-          <button className="comp_btn">Shop Now</button>
+          <button className="furn_comp_btn">Shop Now</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

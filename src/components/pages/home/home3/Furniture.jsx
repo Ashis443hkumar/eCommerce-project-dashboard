@@ -10,7 +10,7 @@ export default function Furniture() {
   return (
    <>
    <Hero/>
-     <section className="px-5 py-5 my-5 fourtune_section">
+     <section className="px-5 fourtune_section">
       <Container fluid>
        <Row>
          <Col lg={3} className="bg-white p-4">
