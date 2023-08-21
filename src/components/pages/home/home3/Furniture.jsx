@@ -37,6 +37,7 @@ export default function Furniture() {
           </ul>
          </div>
          </Col>
+         
          <Col lg={9} className="right_menu">
          <Row>
            <Col lg={7}>
@@ -64,37 +65,53 @@ export default function Furniture() {
                 </div>
              </div>
            </Col>
-         </Row>
-         <Row className="my-3">
+          </Row>
+
+          {/* 2nd row  */}
+         <Row className="fourniture_bottom_hero">
            <Col lg={7}>
-             <div className="furniture_left_des">
+             <div className="left_fouriture_des">
                <div className="furntine_t_des">
-                 <h4>Modern Furniture.</h4>
-                 <h3>Big Sale</h3>
-                 <h5>UP TO 50% OFF</h5>
+                 <h4>Winter Offer.</h4>
+                 <h1>50% OFF</h1>
+                <p>All Kinds of Fourniture  Items</p>
                  <a href="">Shop Now</a>
                </div>
                 <div>
-                  <img src="https://bazaar.ui-lib.com/assets/images/Furniture%20Shop/Furniture%20(6).png"  alt=""/>
+                  <img src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75"  alt=""/>
                 </div>
              </div>
            </Col>
+
            <Col lg={5} className="fouth_right">
             <Row>
              <Col>
-             <div className="furniture_right_fouth_des">
-               <div className="furntine_t_des">
-                 <h4>Sofa Collection.</h4>
-                 <h5>UP TO 50% OFF</h5>
+             <div className="right_fouriture_des">
+               <div className="furntine_desc">
+                 <h4>Modern & Comporfobale.</h4>
+                 <h5>Chair Collections</h5>
                  <a href="">Shop Now</a>
                </div>
                 <div className="fournt_right_img">
                 <img src="https://bazaar.ui-lib.com/assets/images/Furniture%20Shop/Furniture%20(4).png" className="" alt=""/>
                 </div>
-             </div></Col>
+             </div>
+             </Col>
+             <Col>
+             <div className="right_fouriture_des mt-4">
+               <div className="furntine_desc">
+                 <h4>Modern & Comporfobale.</h4>
+                 <h5>Chair Collections</h5>
+                 <a href="">Shop Now</a>
+               </div>
+                <div className="fournt_right_img">
+                <img src="https://bazaar.ui-lib.com/assets/images/Furniture%20Shop/Furniture%20(4).png" className="" alt=""/>
+                </div>
+             </div>
+             </Col>
             </Row>
-
            </Col>
+
          </Row>
         
          </Col>
@@ -103,7 +120,7 @@ export default function Furniture() {
      </Container>
      </section>
 
-
+{/* secction 2 */}
      <section className="px-5 my-5">
       <Container fluid>
        <h4>Top New Product</h4>
