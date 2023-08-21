@@ -3,17 +3,19 @@ import React from "react";
 import {Container, Row,Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Hero from "./Hero";
 import "./style.css"
 
 export default function Furniture() {
   return (
    <>
+   <Hero/>
      <section className="px-5 py-5 my-5 fourtune_section">
       <Container fluid>
        <Row>
          <Col lg={3} className="bg-white p-4">
          <div className="left_menu4">
-          <h4>Top Categories</h4>
+          <h4 className="top_tategories">Top Categories</h4>
           <ul>
             <li>Home</li>
             <li>Popular Products</li>
@@ -22,7 +24,7 @@ export default function Furniture() {
           </ul>
          </div>
          <div className="left_menu">
-          <h4>Top Categories</h4>
+          <h4 className="top_tategories">Top Categories</h4>
           <ul>
             <li>Chair</li>
             <li>Grapes</li>
@@ -43,8 +45,8 @@ export default function Furniture() {
            <Col lg={7}>
              <div className="furniture_left_des">
                <div className="furntine_t_des">
-                 <h4>Modern Furniture.</h4>
-                 <h3>Big Sale</h3>
+                 <h6>Modern Furniture.</h6>
+                 <h2>Big Sale</h2>
                  <h5>UP TO 50% OFF</h5>
                  <a href="">Shop Now</a>
                </div>
