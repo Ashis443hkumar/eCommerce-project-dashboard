@@ -135,7 +135,7 @@ export default function Furniture() {
                <span className="price">$190.00</span>
                <span className="offers_price">$200.00</span>
               </div>
-              <Button variant="outline-secondary" className="addtocard" >+</Button> 
+              <Button variant="outline-secondary" className="addtocard" ><i class="fa-solid fa-plus"></i></Button> 
              </div>
           </Card.Body>
          </Card>

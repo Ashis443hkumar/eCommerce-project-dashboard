@@ -145,12 +145,12 @@
 .card_desc .offers_price{
   text-decoration: line-through;
   margin-left: 30px;
-  color: #cccc;
+  color: rgba(46, 43, 43, 0.8);
 }
 .card_desc .addtocard{
-  border: 1px solid crimson;
-  width: 30px;
-  height: 30px;
+  border: 2px solid  #4bcffa;
+  width: 34px;
+  height: 25px;
   text-align: center;
   line-height: 30px;
   padding: 0px;
