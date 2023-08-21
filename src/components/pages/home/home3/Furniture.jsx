@@ -111,29 +111,31 @@ export default function Furniture() {
              </Col>
             </Row>
            </Col>
-
          </Row>
-        
          </Col>
 
        </Row>
      </Container>
      </section>
 
-{/* secction 2 */}
-     <section className="px-5 my-5">
+     {/* secction 2 */}
+     <section className="px-5 my-5 furntiure_products ">
       <Container fluid>
        <h4>Top New Product</h4>
        <p>Tall blind but were, been folks not the expand</p>
        <Row>
          <Col lg={4}>
-          <Card>
-          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(3).png&w=640&q=75" />
+          <Card className="products_furntiure">
+          <Card.Img variant="top" src="https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2FFurniture%20Shop%2FFurniture%20(1).png&w=640&q=75" />
           <Card.Body>
-            <Card.Title>Comfortable Sofa</Card.Title>
-            <span>$190.00</span>
-            <span>$200.00</span>
-            <Button variant="primary">+</Button>
+            <Card.Title>Study Gold Chair</Card.Title>
+             <div className="card_desc">
+              <div className="prces_define">
+               <span className="price">$190.00</span>
+               <span className="offers_price">$200.00</span>
+              </div>
+              <Button variant="outline-secondary" className="addtocard" >+</Button> 
+             </div>
           </Card.Body>
          </Card>
          </Col>
