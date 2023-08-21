@@ -13,7 +13,7 @@ export default function Furniture() {
      <section className="px-5 fourtune_section">
       <Container fluid>
        <Row>
-         <Col lg={3} className="bg-white p-4">
+         <Col lg={3} className="furniture_left p-4">
          <div className="left_menu4">
           <h4 className="top_tategories">Top Categories</h4>
           <ul>
