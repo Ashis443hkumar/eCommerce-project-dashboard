@@ -24,15 +24,19 @@
 .caption_caousel{
   width: 600px;
   height: 400px;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -30%);
+  top: 45%;
+  left: 26%;
+  transform: translate(-45%, -26%);
   margin-bottom: 20px;
   text-align: start;
 }
 .carousel_caption img{
   width: 100%;
   object-fit: cover;
+}
+.caption_caousel h1{
+  font-size: 63px;
+  font-weight: 400;
 }
 .caption_caousel p{
   font-size: 19px;
